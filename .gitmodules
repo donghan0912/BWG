@@ -1,3 +1,6 @@
 [submodule "submodules/CommonUtils"]
 	path = submodules/CommonUtils
 	url = git@github.com:donghan0912/CommonUtils.git
+[submodule "submodules/tetst"]
+	path = submodules/tetst
+	url = git@github.com:donghan0912/BaseRecyclerViewAdapter.git
