@@ -3,7 +3,7 @@ package com.hpu.bwg;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.hpu.common.TestUtils;
+import com.hpu.common.adapter.BaseRecyclerViewAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +11,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TestUtils.t();
     }
 }
